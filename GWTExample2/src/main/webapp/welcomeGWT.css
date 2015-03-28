@@ -1,0 +1,212 @@
+
+.gwt-Label {
+    color: #DF0101;
+    font: normal 12px tahoma, arial, helvetica, sans-serif;
+    border: 1px solid #99bbe8;
+    padding: 14px;
+}
+
+.gwt-Button {
+    height: 5.7em;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+}
+
+.gwt-DatePicker {
+    border: 1px solid #A2BBDD;
+    cursor: default;
+}
+.gwt-DatePicker td,
+.datePickerMonthSelector td:focus {
+    outline: none
+}
+.datePickerDays {
+    width: 100%;
+    background: white;
+}
+.datePickerDay,
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+    font-size: 75%;
+    text-align: center;
+    padding: 4px;
+    outline: none;
+}
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+    background: #C3D9FF;
+    padding: 0px 4px 2px;
+    cursor: default;
+}
+.datePickerDay {
+    padding: 4px;
+    cursor: hand;
+    cursor: pointer;
+}
+.datePickerDayIsToday {
+    border: 1px solid black;
+    padding: 3px;
+}
+.datePickerDayIsWeekend {
+    background: #EEEEEE;
+}
+.datePickerDayIsFiller {
+    color: #888888;
+}
+.datePickerDayIsValue {
+    background: #aaccee;
+}
+.datePickerDayIsDisabled {
+    color: #AAAAAA;
+    font-style: italic;
+}
+.datePickerDayIsHighlighted {
+    background: #F0E68C;
+}
+.datePickerDayIsValueAndHighlighted {
+    background: #bbddd9;
+}
+.datePickerMonthSelector {
+    background: #C3D9FF;
+    width: 100%;
+}
+td.datePickerMonth {
+    text-align: center;
+    vertical-align: center;
+    white-space: nowrap;
+    font-size: 70%;
+    font-weight: bold;
+    color: blue;
+}
+.datePickerPreviousButton,
+.datePickerNextButton {
+    font-size: 120%;
+    line-height: 1em;
+    color: blue;
+    cursor: hand;
+    cursor: pointer;
+    padding: 0px 4px;
+}
+
+
+.gwt-ToggleButton-up, .gwt-ToggleButton-up-hovering, .gwt-ToggleButton-up-disabled {
+    padding: 3px 5px 3px 5px;
+}
+
+.gwt-ToggleButton-up {
+    border: 1px outset #ccc;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.gwt-ToggleButton-up-hovering {
+    border: 1px outset;
+    border-color: #9cf #69e #69e #7af;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.gwt-ToggleButton-up-disabled {
+    border: 1px outset #ccc;
+    cursor: default;
+    opacity: .5;
+    zoom: 1;
+}
+
+.gwt-ToggleButton-down, .gwt-ToggleButton-down-hovering, .gwt-ToggleButton-down-disabled {
+    padding: 4px 4px 2px 6px;
+}
+
+.gwt-ToggleButton-down {
+    background-position: 0 -513px;
+    border: 1px inset #ccc;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.gwt-ToggleButton-down-hovering {
+    background-position: 0 -513px;
+    border: 1px inset;
+    border-color: #9cf #69e #69e #7af;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.gwt-ToggleButton-down-disabled {
+    background-position: 0 -513px;
+    border: 1px inset #ccc;
+    cursor: default;
+    opacity: .5;
+    zoom: 1;
+}
+
+.gwt-MenuBar{
+    border                      :   1px solid #666;
+    margin                      :   0 auto;
+    background-color            :   #eee;
+    font-size                   :   70%;
+    padding                     :   3px;
+}
+.gwt-MenuBar table{
+    border-collapse             :   separate;
+    border                      :   1px solid #00f;
+    background-color            :   #ddd;
+}
+.gwt-MenuBar .gwt-MenuItem{
+
+    cursor                      :   hand;
+    cursor                      :   pointer;
+    border                      :   1px solid #999;
+    background-color            :   #eee;
+    padding                     :   2px 10px;
+}
+.gwt-MenuBar .gwt-MenuItem-selected{
+    background-color            :   #fff;
+}
+
+.gwt-TabBar
+{
+    margin-top                  :   15px;
+    background-color            :   #ffa;
+    height                      :   100%;
+}
+.gwt-TabBar .gwt-TabBarFirst
+{
+    height                      :   100%;
+    width                       :   25px;
+    padding-left                :   3px;
+    border-bottom               :   1px solid black;
+}
+.gwt-TabBar .gwt-TabBarRest
+{
+    border-left                 :   1px solid #AAA;
+    border-bottom               :   1px solid black;
+    padding-right               :   3px;
+}
+.gwt-TabBar .gwt-TabBarItem
+{
+    border-top                  :   1px solid #ccc;
+    border-left                 :   1px solid #ccc;
+    border-bottom               :   1px solid black;
+    background-color            :   #ffa;
+    color                       :   #ccc;
+    font-size                   :   70%;
+    font-weight                 :   bold;
+    padding                     :   2px 8px 2px 8px;
+    cursor                      :   pointer;
+    cursor                      :   hand;
+}
+.gwt-TabBar .gwt-TabBarItem-selected
+{
+    color                       :   black;
+    background-color            :   #ffc;
+    border-top                  :   1px solid #aaa;
+    border-left                 :   1px solid #aaa;
+    border-right                :   1px solid #333;
+    border-bottom               :   0px solid black;
+    padding                     :   2px 8px 2px 8px;
+    cursor                      :   default;
+}
+

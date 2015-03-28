@@ -1,0 +1,30 @@
+/* 
+    Document   : welcomeGET
+    Created on : 06.04.2011, 1:52:59
+    Author     : gb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.tableHeader {
+  background-color: #2062B8;
+  color: white;
+  font-style: italic;
+}
+
+.tableRow {
+  background-color: silver;
+  color: black;
+  border: 1px solid #BBBBBB;
+
+}
+
